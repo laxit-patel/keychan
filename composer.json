@@ -1,0 +1,26 @@
+{
+    "name": "laxit/keychan",
+    "description": "descriptive & human-readable ID | TAG",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laxit\\Keychan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laxit",
+            "email": "laxxitpatel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Laxit\\Keychan\\KeychanServiceProvider"
+            ]
+        }
+    }
+}

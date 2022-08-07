@@ -1,2 +1,3 @@
-# keychan
-desccriptive &amp; human-readable tag identifier
+# Keychan
+## descriptive &amp; human-readable ID Generator
+
