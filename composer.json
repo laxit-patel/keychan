@@ -7,6 +7,11 @@
             "Laxit\\Keychan\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Laxit\\Keychan\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Laxit",
@@ -16,7 +21,7 @@
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
-            "providers" : [
+            "providers": [
                 "Laxit\\Keychan\\KeychanServiceProvider"
             ]
         }
