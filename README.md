@@ -56,3 +56,6 @@ $longTag = Laxit\Keychan\Tag::generate('order',6) // "9779orderseNDF9"
 
 - we're planning to add separators but this can add two unneccary space
 
+# Testability
+
+- Added "orchestra/testbench" for phpunit testing
