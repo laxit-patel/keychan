@@ -25,6 +25,11 @@ class Tag
 
     public static function generate(string $tag, int $hexLength = 4): string
     {
+        // Validate $hexLength to be a positive integer between 4 and 10
+        if (!is_int($hexLength) || $hexLength < 4 || $hexLength > 10) {
+            throw new \InvalidArgumentException('$hexLength must be an integer between 4 and 10');
+        }
+
         return self::date() . $tag . self::generateCaseSensitiveHex($hexLength);
     }
 
