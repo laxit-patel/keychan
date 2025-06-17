@@ -59,3 +59,5 @@ $longTag = Laxit\Keychan\Tag::generate('order',6) // "9779orderseNDF9"
 # Testability
 
 - Added "orchestra/testbench" for phpunit testing
+
+New Release
